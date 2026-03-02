@@ -109,7 +109,7 @@ export function SecureCheckout() {
 
   if (paymentSuccess) {
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: 0, position: 'relative', width: '390px', minHeight: '884px', background: '#F6F6F8', margin: '0 auto' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: 0, position: 'relative', width: '100%', maxWidth: '390px', minHeight: '100vh', background: '#F6F6F8', margin: '0 auto' }}>
         <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '884px' }}>
           <div style={{ background: '#fff', borderRadius: '16px', padding: '40px 32px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', width: '358px', boxShadow: '0px 4px 6px -1px rgba(0,0,0,0.05)' }}>
             <div style={{ width: '80px', height: '80px', background: '#dcfce7', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '24px' }}>
@@ -133,9 +133,9 @@ export function SecureCheckout() {
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: 0, isolation: 'isolate', position: 'relative', width: '390px', minHeight: '884px', background: '#F6F6F8', margin: '0 auto' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: 0, isolation: 'isolate', position: 'relative', width: '100%', maxWidth: '390px', minHeight: '100vh', background: '#F6F6F8', margin: '0 auto' }}>
 
-      <header style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: '12px 16px', gap: '67.7px', width: '390px', height: '65px', background: 'rgba(246,246,248,0.8)', borderBottom: '1px solid #E2E8F0', backdropFilter: 'blur(6px)', flexShrink: 0, alignSelf: 'stretch', zIndex: 2 }}>
+      <header style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: '12px 16px', gap: '67.7px', width: '100%', height: '65px', background: 'rgba(246,246,248,0.8)', borderBottom: '1px solid #E2E8F0', backdropFilter: 'blur(6px)', flexShrink: 0, alignSelf: 'stretch', zIndex: 2 }}>
         <button style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', padding: 0, width: '40px', height: '40px', borderRadius: '9999px', border: 'none', background: 'none', cursor: 'pointer', flexShrink: 0 }}>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: 0, width: '11.77px', height: '20px' }}>
             <svg width="11.77" height="20" viewBox="0 0 12 20" fill="none" stroke="#0F172A" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -151,7 +151,7 @@ export function SecureCheckout() {
         <div style={{ width: '40px', height: '40px', flexShrink: 0 }} />
       </header>
 
-      <main style={{ width: '390px', flex: 1, position: 'relative', paddingBottom: '105px' }}>
+      <main style={{ width: '100%', flex: 1, position: 'relative', paddingBottom: '105px' }}>
 
         <section style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '16px', isolation: 'isolate', position: 'absolute', left: '16px', right: '16px', top: '24px', background: '#FFFFFF', border: '1px solid #F1F5F9', borderRadius: '12px' }}>
           <div style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0, background: 'rgba(255,255,255,0.002)', boxShadow: '0px 4px 6px -1px rgba(0,0,0,0.05), 0px 2px 4px -2px rgba(0,0,0,0.05)', borderRadius: '12px', zIndex: 0 }} />
