@@ -151,7 +151,7 @@ export function SecureCheckout() {
         <div style={{ width: '40px', height: '40px', flexShrink: 0 }} />
       </header>
 
-      <main style={{ width: '100%', flex: 1, position: 'relative', paddingBottom: '105px' }}>
+      <main style={{ width: '100%', flex: 1, position: 'relative', paddingBottom: '105px', minHeight: '820px' }}>
 
         <section style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', padding: '16px', isolation: 'isolate', position: 'absolute', left: '16px', right: '16px', top: '24px', background: '#FFFFFF', border: '1px solid #F1F5F9', borderRadius: '12px' }}>
           <div style={{ position: 'absolute', left: 0, right: 0, top: 0, bottom: 0, background: 'rgba(255,255,255,0.002)', boxShadow: '0px 4px 6px -1px rgba(0,0,0,0.05), 0px 2px 4px -2px rgba(0,0,0,0.05)', borderRadius: '12px', zIndex: 0 }} />
