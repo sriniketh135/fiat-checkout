@@ -37,8 +37,5 @@ Output goes to the `dist/` folder.
 
 ## Deployment
 
-Deployed on Vercel: [your-deployed-link-here]
+Deployed on Vercel: https://fiat-checkout-new1.vercel.app/
 
-## GitHub
-
-[your-github-repo-link-here]
